@@ -1,0 +1,4 @@
+The pygame.Color class normally goes by this format:
+                                                    COLOUR = (r, g, b, a)
+
+created window, dots and gets position of the mouse when its clicked .
