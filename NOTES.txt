@@ -2,3 +2,13 @@ The pygame.Color class normally goes by this format:
                                                     COLOUR = (r, g, b, a)
 
 created window, dots and gets position of the mouse when its clicked .
+
+pygame.draw.rect(Surface, color, Rect, width=0)
+pygame.draw.polygon(Surface, color, pointlist, width=0)
+pygame.draw.circle(Surface, color, pos, radius, width=0)
+pygame.draw.ellipse(Surface, color, Rect, width=0)
+pygame.draw.arc(Surface, color, Rect, start_angle, stop_angle, width=1)
+pygame.draw.line(Surface, color, start_pos, end_pos, width=1)
+pygame.draw.lines(Surface, color, closed, pointlist, width=1)
+pygame.draw.aaline(Surface, color, startpos, endpos, blend=1)
+pygame.draw.aalines(Surface, color, closed, pointlist, blend=1)
