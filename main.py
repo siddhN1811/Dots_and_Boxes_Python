@@ -25,9 +25,11 @@ y = int(input("Enter No. of columns: "))
 
 while running:
     win.fill(white)
-    
+
     all_events =pygame.event.get()
     #bg grid
+
+
     for i in range(100):
         for j in range(100):
             # parameters/arguments whatever -> where, colour, position(x,y) , radius
